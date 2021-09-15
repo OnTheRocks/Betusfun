@@ -1,3 +1,28 @@
 body {
   margin: 0;
 }
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.Division {
+  background-color: black;
+  color: azure;
+  width: 25%;
+  margin: 0px;
+}
+
+.TeamCity {
+  width: 25%;
+  margin: 0px;
+  font-size: 60px;
+  text-align: justify;
+}
+
+.TeamMascot {
+  width: 25%;
+  margin: 0px;
+  font-size: 45px;
+}
