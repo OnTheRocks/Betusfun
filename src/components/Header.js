@@ -1,16 +1,12 @@
 import React from "react";
+import TeamInfo from "./TeamInfo";
+import TeamStats from "./TeamStats";
 
 function Header() {
   return(
-    <div className="box">
-      <div className="Team">
-        <h3 className="Division">AFC East</h3>
-      </div>
-      <div className="Team">
-        <h1 className="TeamCity">Miami</h1>
-        <h1 className="TeamMascot">Dolphins</h1>
-      </div>
-     
+    <div className="headContainer">
+      <div className="teamInfo"><TeamInfo /></div>
+      <div className="teamStats"><TeamStats /></div>
     </div>
   )
 }
