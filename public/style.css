@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 .headContainer {
@@ -18,12 +20,22 @@ body {
   margin: 0 5px 0 0;
 }
 
+.teamNameHeader p {
+  display: inline-block;
+  
+}
+
+.TeamCity, .TeamMascot{
+  margin: 0;
+  font-size: 50px;  
+  font-weight: bolder;
+}
+
 .Division {
-  background-color: black;
+  background-color: rgb(1, 48, 1);
   color: azure;
   margin: 0px;
 }
-
 
 .teamStats {
   width: 66%;

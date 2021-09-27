@@ -10,13 +10,13 @@ const TeamStats = () => {
           <div className="offense">
             <h3 className="subHead">Offense</h3>
             <div className="offStats">
-                "hello"
+                TBD
             </div>
           </div>          
           <div className="defense">
             <h3 className="subHead">Defense</h3>
             <div className="defStats">
-                "hi"
+                TBD
             </div>
           </div>
         </div>
