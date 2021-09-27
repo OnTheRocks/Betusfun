@@ -9,6 +9,7 @@ const TeamInfo = () => {
         </div>
           <h1 className="TeamCity">Miami</h1>
           <h1 className="TeamMascot">Dolphins</h1>
+          <p>2020 REC: 10-6  ATS: 11-5-0</p>
       </div>
     </div>
   )
