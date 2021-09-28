@@ -6,12 +6,12 @@ import dolphins from "./Data/DolphinsSchedule";
 
 
 function App() {
-  const dC = dolphins.map(sched => <Dolphins key={sched.week} dol={sched}/>)
+  // const dC = dolphins.map(sched => <Dolphins key={sched.week} dol={sched}/>)
   return (
     <div className="App">
       <Header />
       <Schedule />
-      {dC}
+      {/* {dC} */}
     </div>
   );
 }

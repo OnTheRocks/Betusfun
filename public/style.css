@@ -80,6 +80,12 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
+table {
+  border: 1px solid darkgreen;
+}
+
+
 /* .box {
   display: flex;
   flex-direction: row;  
