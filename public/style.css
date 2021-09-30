@@ -85,37 +85,6 @@ table {
   border: 1px solid darkgreen;
 }
 
-
-/* .box {
-  display: flex;
-  flex-direction: row;  
+table {
+  width: 100%;
 }
-
-.team {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
-
-  background-color: green;
-}
-
-
-.TeamCity {
-  width: 25%;
-  margin: 0px;
-  font-size: 60px;
-  text-align: justify;
-}
-
-.TeamMascot {
-  width: 25%;
-  margin: 0px;
-  font-size: 45px;
-}
-
-.box2 {
-  display: flex;
-  flex-direction: column;
-  width: 66%;
-  border: 1px solid black;
-} */

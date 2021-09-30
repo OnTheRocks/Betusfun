@@ -5,11 +5,11 @@ const TeamInfo = () => {
     <div>
       <div className="teamNameHeader">
         <div className="Team">
-          <h3 className="Division">AFC East</h3>
+          <h3 className="Division">Division</h3>
         </div>
-          <h1 className="TeamCity">Miami</h1>
-          <h1 className="TeamMascot">Dolphins</h1>
-          <p>2020 REC: 10-6  &nbsp; &nbsp; &nbsp;   ATS: 11-5-0</p>
+          <h1 className="TeamCity">City</h1>
+          <h1 className="TeamMascot">Mascot</h1>
+          <p>2020 REC: Record  &nbsp; &nbsp; &nbsp;   ATS: Record</p>
       </div>
     </div>
   )
