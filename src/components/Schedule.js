@@ -1,10 +1,13 @@
 import React from "react";
-import Dolphins from "../components/Dolphins";
+// import Dolphins from "../components/Dolphins";
 import dolphins from "../Data/DolphinsSchedule";
 
 
 function Schedule(props) {
   const dC = dolphins.map(sched => <Dolphins key={sched.week} dol={sched}/>)
+
+  // console.log(dC)
+
   return(
     <div>
       <div className="scheduleMain">2021 Schedule</div>
@@ -20,7 +23,7 @@ function Schedule(props) {
           <th>W/L</th>
         </tr>
         <tr>
-          <td>{dC.sched}</td>
+          <td>{dC}</td>
         </tr>
       </table>
       {dC}

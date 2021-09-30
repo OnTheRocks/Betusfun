@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
 import Schedule from "./components/Schedule";
-import Dolphins from "./components/Dolphins";
-import dolphins from "./Data/DolphinsSchedule";
+// import Dolphins from "./components/Dolphins";
+// import dolphins from "./Data/DolphinsSchedule";
 
 
 function App() {
