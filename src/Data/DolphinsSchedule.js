@@ -1,4 +1,4 @@
-const dolphins = [
+const dSched = [
   {
     week: '1',
     date: 'Sept. 12',
@@ -52,4 +52,4 @@ const dolphins = [
 
 ]
 
-export default dolphins;
+export default dSched;

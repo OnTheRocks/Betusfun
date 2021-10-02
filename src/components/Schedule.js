@@ -1,10 +1,10 @@
 import React from "react";
-
-
+import dolphinsData from "../Data/DolphinsData";
+import dSched from "../Data/DolphinsSchedule";
 
 function Schedule(props) {
   
-
+  const dS = dSched.map(sched => <Dolphins key={sched.week} dol={sched}/>)
 
   return(
     <div>
@@ -23,10 +23,15 @@ function Schedule(props) {
           </tr> 
         </thead>   
           <tbody> 
-            
-          </tbody>          
-         
-      </table>     
+            {/* <tr>{dolphinsData.dolphinsSchedule[2]}</tr> */}
+            <tr><td>{dSched}</td></tr>
+            {/* <tr><td>{dolphinsData.mascot}</td></tr> */}
+
+          </tbody>       
+
+ 
+      </table>  
+
     </div>
   )
 }
