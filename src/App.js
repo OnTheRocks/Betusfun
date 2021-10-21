@@ -1,18 +1,25 @@
-import React from "react";
-import Header from "./components/Header";
-import Schedule from "./components/Schedule";
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  // const dC = dolphins.map(sched => <Dolphins key={sched.week} dol={sched}/>)
   return (
     <div className="App">
-      <Header />
-      <Schedule />
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
-
-
 
 export default App;
