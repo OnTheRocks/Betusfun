@@ -4,7 +4,7 @@ import dSched from "../Data/DolphinsSchedule";
 
 function Schedule(props) {
   
-  const dS = dSched.map(sched => <Dolphins key={sched.week} dol={sched}/>)
+  // const dS = dSched.map(sched => <Dolphins key={sched.week} dol={sched}/>)
 
   return(
     <div>
