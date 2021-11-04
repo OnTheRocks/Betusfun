@@ -7,27 +7,35 @@ export default class Temp extends Component {
   }
 
 async componentDidMount() {
-  const url = "https://randomuser.me/api";
+  const url = "https://api.sportsdata.io/v3/nfl/stats/json/BoxScores/2020REG/1?key=c6cb2c329eca411389181703e4302617";
   const response = await fetch(url);
   const data = await response.json();
-  this.setState({ person: data.results[0], loading: false })
-  console.log(data.results[0]);
+  // this.setState({ schedule: data.GameKey, loading: false })
+  console.log(data);
 }
 
   render() {
     return (
       <div>
-        {this.state.loading || !this.state.person ? (
-          <div>loading...</div>
-         ) : (
-          <div>
-            <div>{this.state.person.name.last}, {this.state.person.name.first}</div>
-            <div>{this.state.person.name.last}</div>
-            <div>{this.state.person.login.password}</div>
-            <img src={this.state.person.picture.large}/>
-          </div>
-         )}
+        
       </div>
     )
   }
 }
+
+
+
+
+
+
+
+// {this.state.loading || !this.state.data.week ? (
+//           <div>loading...</div>
+//          ) : (
+//          <div>
+//             <div>{this.state.data.week}</div>
+//             <div>{this.state.person.name.last}</div>
+//             <div>{this.state.person.login.password}</div>
+//             <img src={this.state.person.picture.large}/>
+//           </div>
+//          )} 
