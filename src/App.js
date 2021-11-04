@@ -1,20 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header';
-import Schedule from './components/Schedule';
-import TeamInfo from './components/TeamInfo';
-import TeamStats from './components/TeamStats';
+import React from 'react'
+import Temp from './components/Temp'
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <Schedule /> */}
-      <TeamInfo />
-      <TeamStats />
+    <div>
+
+      {/* <h1>Hello World!</h1> */}
+      <Temp />
     </div>
-  );
+  )
 }
-
-export default App;
-
